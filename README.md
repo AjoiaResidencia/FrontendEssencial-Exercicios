@@ -1,2 +1,2 @@
 # FrontendEssencial-Exercicios
-Repositório para entrega de exercícios
+Repositório do Mateus Reis com os Exercícios
