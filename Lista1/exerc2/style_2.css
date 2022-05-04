@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+div {
+    padding-top: 2.0rem;
+    padding-inline: 10.0rem;
+}
+
+hr {
+    border: 2px solid blue;
+}
