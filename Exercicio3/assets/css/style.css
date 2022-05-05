@@ -1,0 +1,13 @@
+body{
+    font-size: small;
+}
+hr{
+    text-align: center;
+    margin: 15px auto 20px auto;
+    width: 500px;
+    border: solid #00ff2f;
+}
+.texto{
+   font-size: small;
+   background-color: #d9ff00;
+}
