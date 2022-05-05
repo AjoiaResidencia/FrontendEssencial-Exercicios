@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    
+        <style>
+        body{
+            text-align: center;
+        }
+
+        table, th, td{
+            border: 3px solid goldenrod;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        .tabela{
+            margin-top: 2rem;
+            width: 60%;
+            height: 10rem;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tabela</h1>
+
+    <table>
+
+        <caption>My table</caption>
+
+        <tr>
+            <th>Produtos</th>
+            <th>Marca</th>
+            <th>Preço</th>
+            <th>Origem</th>
+        </tr>
+
+        <tr>
+            <td>Gucci</td>
+            <td>Armani</td>
+            <td>Lacoste</td>
+            <td>Carolina Herrera</td>
+        </tr>
+
+        <tr>
+            <td>Chanel</td>
+            <td>Dior</td>
+            <td>Swarowsky</td>
+            <td>Sant Louis</td>
+        </tr>
+
+    </table>
+    <table class="tabela">
+        <caption>Minha tabela</caption>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>            
+            <td></td>            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>            
+        </tr>         
+        <tr>            
+            <td></td>
+            <td></td>        
+            <td colspan="2"></td>
+        </tr>
+    </table>
+</body>
+</html>

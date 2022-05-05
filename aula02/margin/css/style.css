@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+.margem{/*pra dentro do elemento*/
+border:2px solid #333;
+margin: 100px 50px 20px 80px;
+/*margin-top: 5rem;
+margin-left: 5rem;
+margin-right: 5rem;*/
+}
+.padding{/*pra fora do elemento*/
+    border: 2px solid #333;
+    padding:10px 20px 5px 80px;
+}

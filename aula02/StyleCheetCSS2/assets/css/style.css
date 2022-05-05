@@ -1,0 +1,30 @@
+/*aqui que deve estar as edicoes */
+body {
+    text-align: center;
+    background-image: url(../3.webp);
+}
+
+h1 {
+    
+    color: rgb(68, 33, 221);
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-indent: 10px;
+    text-align:left;
+    line-height: 3px;
+    word-spacing: 1px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    
+
+}
+div{
+    background-color: rgb(92, 84, 84);
+}
