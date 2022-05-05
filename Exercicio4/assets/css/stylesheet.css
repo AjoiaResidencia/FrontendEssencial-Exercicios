@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    }
+
+section {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
