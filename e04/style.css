@@ -1,0 +1,10 @@
+img  {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1,p {
+    text-align: center;
+}
