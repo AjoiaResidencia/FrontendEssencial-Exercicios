@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+
+.linhas{
+    border: 3px solid #3a2df6;
+    margin:0 40% 0 40%;
+}
+
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin:auto;
+    padding: 2%;
+    padding-top: 3%;
+}
