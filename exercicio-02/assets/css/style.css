@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    margin: auto;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+hr{
+    border: 0;
+    border-top: 8px solid #3608b6;
+    padding: 20px;
+    text-align:center;
+    width: 500px;
+}
