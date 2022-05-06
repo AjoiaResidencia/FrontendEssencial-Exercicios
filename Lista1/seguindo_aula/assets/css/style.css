@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Star_Wars';
+    font-size: 1.6rem;
+}
+
+.container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.lado_esq {
+    background-color: #161a1d;
+    width: 50%;
+    height: 100vh;
+}
+
+.lado_dir {
+    background-color: #0b090a;
+    width: 50%;
+    height: 100vh;
+    
+}
+
+img {
+    width: auto;
+    height: auto;
+    padding-top: 10rem;
+    padding-inline: 5rem;
+    border-radius: 0 solid black;
+    border-radius: 50%;
+}
+
+.esq_sup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+.esq_sup p{
+    margin: 0;
+    letter-spacing: 0.9rem;
+    font-weight: bold;
+    font-size: 4.9rem;
+}
+
+
+.esq_inf {
+    width: 100%;
+    height: 50%;
+}
+
+.esq_inf p {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #FFE81F;
+    margin-inline: auto;
+    padding-bottom: 6.9rem;
+
+}
+
+.esq_inf form {
+
+    width: 45%;
+
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+    gap: 2.6rem;
+    
+}
+
+.esq_inf form input[type="text"],
+.esq_inf form input[type="password"] {
+    background-color: #0000;
+    color: #FFE81F;
+    
+    height: 5.2rem;
+    font-size: 1.6rem;
+    padding: 0.7rem;
+    border-radius: 1.5rem;
+}
+
+.esq_inf form input[type="password"] {
+    height: 3.2rem;
+    width: 60%;
+}
+
+.esq_inf form input[type="submit"] {
+    background-color: #0000;
+    color: #FFE81F;
+
+    width: 30%;
+
+    border-radius: 1.3rem;
+    padding: 0.5rem;
+}
+
+.esq_inf form input[type="submit"]:hover {
+    color: #0b090a;
+    cursor: pointer;
+}
+
