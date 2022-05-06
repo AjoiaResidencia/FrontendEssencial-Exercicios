@@ -1,0 +1,21 @@
+.right {
+  float: inline-end;
+  width: 23%;
+  margin: 0 5px 0px 5px;
+}
+
+.bottom-left {
+  float: inline-start;
+  width: 11%;
+  margin: 0 5px 0px 5px;
+}
+
+.top {
+  display: block;
+  margin: auto;
+  width: 35%;
+}
+
+h1 {
+  text-align: center;
+}
