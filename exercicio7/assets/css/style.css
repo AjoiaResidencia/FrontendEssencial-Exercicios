@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 325px;
+  height: 250px;
+}
+
+footer {
+  text-align: center;
+}
