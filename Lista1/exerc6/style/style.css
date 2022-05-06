@@ -1,0 +1,28 @@
+/*
+Página em dark mode
+*/
+
+
+body {
+    background-color: #333;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.4rem;
+}
+
+body p, h1 {
+    color: white;
+}
+
+body ul li {
+    list-style: circle;
+    color: white;
+}
+
+body ol {
+    color: white;
+}
+
+img {
+    width: 14rem;
+    height: 9rem;
+}

@@ -1,0 +1,62 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.parte_cima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parte_cima img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-bottom: 6rem;
+}
+
+.parte_baixo {
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.lista a {
+    color: white;
+    text-decoration: none;
+}
+
+.lista a:hover {
+    color: chocolate;
+}
+
+.parte_baixo .botao{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.parte_baixo .botao button {
+    width: 15%;
+    padding-block: 0.5rem;
+    color: white;
+    background-color: rgb(103, 45, 4);
+    border: none;
+    border-radius: 15px;
+    
+}
+
+.parte_baixo .botao button a {
+    color: white;
+    text-decoration: none;
+}
+
+.parte_baixo .botao button a:hover {
+    color: black;
+}
