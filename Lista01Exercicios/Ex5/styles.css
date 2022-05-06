@@ -2,31 +2,16 @@ header {
     text-align: center;
 }
 
-img#tucano {
-    width: 20%;
-}
-
 section {
-    width: 95%;
-    margin: auto;
-}
-
-section div {
-    text-align: center;
-}
-
-div#texto1 {
     text-align: justify;
 }
 
-div#texto2 {
-    text-align: justify;
+.right {
+    float: right;
+    margin-left: 10px;
 }
 
-div#tigre img {
-    width: 30%;
-}
-
-div#orangotango img {
-    width: 30%;
+.left {
+    float: left;
+    margin-right: 10px;
 }
