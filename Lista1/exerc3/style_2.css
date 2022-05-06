@@ -1,16 +1,11 @@
 body {
     background-color: #333;
     color: white;
-    text-align: center;
-    font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
-}
-
-div {
-    padding-top: 2.0rem;
-    padding-inline: 10.0rem;
+    padding: 10px 0 0 55px;
 }
 
 hr {
     border: 2px solid blue;
+    margin-right: 30%;
 }
