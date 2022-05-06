@@ -1,0 +1,39 @@
+.container-top{
+    text-align: center;
+}
+h1{
+    background-color: #1f1f1f;
+    font-family: Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+h3{
+    background-color: #fffb00;
+}
+img{
+    padding-top: 20px;
+    width: 20%;
+}
+.cafe{
+    list-style-type: disc;
+}
+.segundaLista{
+    list-style-type: none;
+}
+.informacoes{
+    padding-top: 1%;
+    list-style-type: circle;
+}
+.terceiraLista{
+    list-style-type: none;
+}
+.ingredientes{
+    padding-top: 1%;
+    list-style-type: circle;
+}
+.quartaLista{
+    list-style-type: none;
+}
+.preparo{
+    padding-top: 1%;
+    list-style-type: decimal;
+}
