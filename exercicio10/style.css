@@ -30,22 +30,24 @@
   width: 50%;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .second-line,
 .fourth-line,
 .fifth-line {
   justify-content: center;
+  align-items: center;
 }
 
 .fourth-line {
   display: flex;
-  height: 60%;
+  height: 50%;
   width: 100%;
 }
 .fifth-line {
   display: flex;
-  height: 40%;
+  height: 50%;
   width: 100%;
 }
 .text {
@@ -90,8 +92,12 @@
   justify-content: center;
   margin: 0rem 1rem 2rem 0px;
   background-color: #bebebe;
-  width: 19rem;
+  width: 20rem;
   height: 8em;
+  margin-top: 0.4rem;
+  position: relative;
+  left: 0.5rem;
+  
 }
 .spacing {
   width: 10em;
