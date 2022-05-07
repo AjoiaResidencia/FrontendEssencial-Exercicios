@@ -1,0 +1,98 @@
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cabecalho,
+.rodape {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  background-color: #bebebe;
+  justify-content: center;
+  align-items: center;
+}
+
+.top,
+.bottom {
+  display: flex;
+  width: 100%;
+}
+
+.first-line,
+.second-line,
+.third-line,
+.corner {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.second-line,
+.fourth-line,
+.fifth-line {
+  justify-content: center;
+}
+
+.fourth-line {
+  display: flex;
+  height: 60%;
+  width: 100%;
+}
+.fifth-line {
+  display: flex;
+  height: 40%;
+  width: 100%;
+}
+.text {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.left-small-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 2rem 2rem 0px;
+  background-color: #bebebe;
+  width: 7em;
+  height: 8em;
+}
+
+.right-small-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 3rem 2rem 3rem;
+  background-color: #bebebe;
+  width: 7em;
+  height: 8em;
+}
+
+.big-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 1rem 2rem 0px;
+  background-color: #bebebe;
+  width: 25em;
+  height: 20em;
+}
+
+.medium-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 1rem 2rem 0px;
+  background-color: #bebebe;
+  width: 19rem;
+  height: 8em;
+}
+.spacing {
+  width: 10em;
+}
