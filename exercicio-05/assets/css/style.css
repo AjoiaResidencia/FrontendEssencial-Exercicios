@@ -1,0 +1,12 @@
+body{
+    text-align:center;
+    margin: auto;
+}
+.right{
+    float: right;
+    width: 200px;
+}
+.left{
+    float: left;
+    width: 200px;
+}
