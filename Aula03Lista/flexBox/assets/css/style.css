@@ -1,0 +1,90 @@
+body{
+    margin: 0%;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.left-side{
+    background-color: rgb(157, 52, 243);
+width: 50%;
+height: 100vh;
+}
+.right-side{
+background-color: rgb(157, 52, 243);
+width: 50%;
+height: 100vh;
+}
+img{
+    border: 5px solid rgb(253, 252, 252);
+    width: 95%;
+    height: 98%;
+    border-radius: 40%;
+}
+.area-superior{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.titulo{
+    margin: 0%;
+    
+font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
+    
+    
+}
+.area-inferior{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.area-inferior form{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: rgb(157, 52, 243);
+}
+.area-inferior form input[type="text"], 
+.area-inferior form input[type="password"]{
+ font-size: 1.3rem;
+ padding: 0.5rem;
+ border-radius: 5px;
+ outline: none;
+ border: none;
+ font-family: 'Bangers', cursive;
+}
+.area-inferior form input[type="submit"]{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(211, 199, 219);
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s;
+    font-family: 'Bangers', cursive;
+
+     
+}
+.area-inferior form input[type="submit"]:hover{
+filter: brightness(0.8);
+cursor: pointer;
+}
+.area-inferior form input[type="text"]:focus, 
+.area-inferior form input[type="password"]:focus{
+    outline: 2px solid rgb(214, 203, 210);
+    
+}

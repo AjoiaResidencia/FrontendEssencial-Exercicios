@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    
+}
+img{
+    border: 3px solid rgb(216, 17, 17);
+    border-radius: 50%;
+}
+
+.imagem1{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+}
+.imagem2{
+    width: 100px;
+    height: 100px;
+}
+.imagem3{
+    width: 100px;
+    height: 100px;
+}
+.imagem4{
+    width: 100px;
+    height: 100px;
+}
+.imagem5{
+    width: 100px;
+    height: 100px;
+}
+.imagem6{
+    width: 100px;
+    height: 100px;
+}
