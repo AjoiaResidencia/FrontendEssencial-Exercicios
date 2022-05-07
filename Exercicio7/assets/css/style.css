@@ -4,7 +4,14 @@
 img{
     width: 25%;
 }
+ul{
+    list-style-type: none;
+}
 ol{
-    padding: 1%;
+    padding-top: 15px;
     list-style-type: disc;
 }
+p{
+    text-align: center;
+}
+
