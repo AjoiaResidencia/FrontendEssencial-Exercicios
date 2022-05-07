@@ -1,0 +1,23 @@
+table,th,tr,td{
+    border: #333 solid 2px;
+    align-items: center;
+}
+table{
+    margin: auto;
+    width: 50%;
+}
+
+.primary-color{
+    background-color:#3a9ef0;
+}
+.align-date{
+    text-align: end;
+}
+.second-color{
+    background-color: #3b3b3b;
+    color: #fff;
+    text-align: end;
+}
+.total-value{
+    text-align: left;
+}

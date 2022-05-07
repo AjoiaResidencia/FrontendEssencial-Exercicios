@@ -1,0 +1,120 @@
+body {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.header,
+.footer {
+    width: 100%;
+    text-align: center;
+   padding: 1rem 0;
+    background-color: #afafaf;
+    max-width: 1500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+
+}
+
+ main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    height: 30.5rem;
+    max-width: 1500px;   
+    justify-content: center;
+}
+
+.metade-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.metade-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+.container {
+    width: 85%;
+    height: 90%;
+}
+
+.div1, .div3 {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 35%;
+}
+
+.div3 {
+    justify-content: space-around;
+}
+
+.div2 {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 65%;
+}
+
+.div3 ~ .div2{
+    flex-direction: column;
+}
+
+.div2 > .div3 {
+    height: 100%;
+}
+
+.div4{
+    display: flex;
+    flex-direction: column;
+    height: 100%;    
+}
+
+.div5{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    height: 85%;
+    background-color: #afafaf;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    background-color: #afafaf;
+}
+
+.content3 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    height: 100%;
+    background-color: #afafaf;
+}
+
