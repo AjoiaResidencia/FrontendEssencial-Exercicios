@@ -1,0 +1,31 @@
+table,
+th,
+td {
+  border: 1px solid #333;
+}
+
+td {
+  height: 1rem;
+}
+
+table {
+  margin: auto;
+  width: 60%;
+}
+
+#logo-serratec {
+  width: 200px;
+}
+
+#icone {
+  width: 40px;
+}
+
+.background-azul {
+  background-color: #8a8cff;
+}
+
+.footer-table {
+  background-color: #4b4b4b;
+  color: #fff;
+}

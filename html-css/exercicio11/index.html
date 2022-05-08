@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exercicio 11</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulário de Cadastro</h1>
+
+      <form action="">
+        <div class="center">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" required />
+
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" name="sobrenome" required />
+
+          <label for="nascimento">Data de Nascimento</label>
+          <input type="date" name="" id="" required/>
+
+          <label for="email">E-mail</label>
+          <input type="email" name="" id="" required/>
+
+          <label for="telefone">Telefone</label>
+          <input type="tel" name="telefone" placeholder="24 98856-2565" required/>
+
+          <label for="cpf">CFP</label>
+          <input type="text" name="cpf" required/>
+
+          <label for="tecnologia">Tecnologia de preferência</label>
+          <div class="tecnologia">
+          <label for="tecnologia">HTML</label>
+          <input type="radio" name="tecnologia" value="html" re/>
+          <label for="tecnologia">CSS</label>
+          <input type="radio" name="tecnologia" value="css" />
+          <label for="tecnologia">Javascript</label>
+          <input type="radio" name="tecnologia" value="js" />
+        </div>
+          <label for="area">Área de atuação</label>
+          <select name="area" required>
+            <option value="front">Front-end</option>
+            <option value="back">Back-end</option>
+          </select>
+
+          <label for="nickname">Nome de Usuário</label>
+          <input type="text" name="nickname" required/>
+
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" required />
+
+          <div class="buttons">
+            <input type="button" value="Enviar" id="enviar">
+            <input type="button" value="Cancelar" id="cancelar">
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
