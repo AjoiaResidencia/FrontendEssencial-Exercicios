@@ -1,0 +1,21 @@
+h1{
+    text-align:center;
+    color: #f0f8ff;
+    background-color: #ff5e00;
+}
+h3{
+    text-align: center;
+    background-color: #2e2be2;
+}
+.primeira{
+   list-style-type:disc;
+}
+ul{
+    list-style-type: circle;
+}
+p{
+    
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}

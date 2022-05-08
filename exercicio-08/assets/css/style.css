@@ -1,0 +1,24 @@
+table, tr, th, td{
+    border: 1px solid #333;
+}
+table{
+    margin: auto;
+    width: 60%;
+}
+td{
+    height: 1rem;
+}
+#logo{
+    width: 200px;
+
+}
+#computador{
+    width: 40px;
+}
+.background-azul{
+    background-color: #2e2ee4;
+}
+.background-cinza{
+    background-color: #333;
+    color: #faebd7;
+}
