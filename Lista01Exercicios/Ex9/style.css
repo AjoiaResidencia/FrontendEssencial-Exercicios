@@ -1,0 +1,28 @@
+body {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+div[class|="container"] {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    width: 97vw;
+    height: 31vh;
+}
+
+.container-middle {
+    justify-content: space-around;
+}
+
+.container-top, .container-bottom {
+    justify-content: space-between;
+}
+
+div[class*="box"] {
+    background: #333;
+    width: 200px;
+    height: 200px;
+}

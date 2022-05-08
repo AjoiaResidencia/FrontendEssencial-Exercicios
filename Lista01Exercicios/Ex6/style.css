@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: #333;
+    color: white;
+}
+
+h2 {
+    background-color: khaki;
+}
+
+li span {
+    font-weight: bold;
+}

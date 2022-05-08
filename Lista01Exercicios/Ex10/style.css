@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+    overflow-y: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #aaa;
+    width: 100vw;
+    height: 5vh;
+    padding-block: 5px;
+}
+
+.container-top p {
+    font-size: 28px;
+}
+
+.container-middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 86vh;
+}
+
+.middle-left, .middle-right {
+    width: 35vw;
+    height: 70vh;
+}
+
+.middle-right {
+    width: 30vw;
+}
+
+.middle-left-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.mlt1, .mlt2, .mlt3 {
+    background: #aaa;
+    width: 30%;
+    height: 100%;
+}
+
+.middle-left-bottom {
+    background: #aaa;
+    height: 66.6%;
+    margin-top: 20px;
+}
+
+.middle-right-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.mrt1, .mrt2 {
+    background: #aaa;
+    width: 38%;
+    height: 100%;
+}
+
+.middle-right-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    height: 30%;
+}
+
+.mrm1, .mrm2 {
+    background: #aaa;
+    width: 38%;
+    height: 100%;
+}
+
+.middle-right-bottom {
+    background: #aaa;
+    margin-top: 18px;
+    height: 33.3%;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background: #aaa;
+    width: 100vw;
+    height: 9vh;
+}
+
+.container-bottom p {
+    font-size: 28px;
+}
+
+div[class*="mlt"], div[class*="mrt"], div[class*="mrm"] {
+    background: #aaa;
+}

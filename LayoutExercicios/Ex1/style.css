@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: 0;
+    overflow-x: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div {
+    width: 100vw;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-top {
+    background-color: chartreuse;
+    width: 100%;
+    height: 10%;
+}
+
+.container-top2 {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 5%;
+}
+
+.container-middle {
+    background-color: cyan;
+    width: 100%;
+    height: 75%;
+    padding-top: 17.5%;
+}
+
+.container-bottom {
+    background-color: blueviolet;
+    width: 100%;
+    height: 10%;
+}
