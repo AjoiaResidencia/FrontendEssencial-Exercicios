@@ -1,0 +1,35 @@
+body {
+    background-color: #333;
+    font-size: 6rem;
+}
+
+@media screen and (max-width:600px){
+    body {
+        background-color: #000000;
+        font-size: 3rem;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width:600px),
+    screen and (orientation:landscape) {
+        body {
+            background-color: rgb(255, 0, 0);
+        }
+    }
+
+@media screen and (min-width:800px) {
+    body {
+        background-color: #5f4343;
+        color: aqua;
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    body {
+        background-color: #dd7070;
+        color: bisque;
+        font-size: 5rem;
+    }
+}
