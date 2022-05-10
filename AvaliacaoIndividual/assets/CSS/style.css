@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+
+    background-color: white;
+}
+.topomusicpearls{
+    text-align: center;
+    color: antiquewhite;
+    height: 8%;
+    border-bottom: 1px solid black;
+    background-color: black;
+}
+.divface1{
+    text-align: end;
+    height: 5%;
+}
+.divprimtext{
+    text-align: center;
+    height: 4%;
+}
+.divai{
+    text-align: center;
+    height: 4%;
+}
+.container1{
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cardscont{
+    width: 25%;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+.divalbum{
+    height: 70%;
+    background-color: black;
+}
+.irpara{
+    height: 8%;
+    text-align: center;
+}
+.sobremim{
+    height: 40%;
+    width: 55%;
+}
+.minhafoto{
+    height: 40%;
+    width: 25%;
+    float: left;
+}
+.minhabiografia{
+    height: 40%;
+    width: 75%;
+    float: left;
+}
+.textao{
+    height: 100%;
+    width: 45%;
+}
+.espaco{
+    height: 4%;
+    width: 100%;
+    clear: both;
+}
+.acessemp{
+    height: 4%;
+    width: 100%;
+    text-align: center;
+}
+.pordados{
+    height: 50%;
+    width: 100%;
+    
+}
+.inserir{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: rgb(242, 247, 247);
+}
+.enchelin{
+    height: 10%;
+    width: 100%;
+}
+.pornome{
+    height: 10%;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    text-align: left;
+}
+.checkbox{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.checkbox__input{
+    display: none;
+}
+.checkbox__box{
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid #cccccc;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+.checkbox__box::after{
+    color:  #db0e0e;
+}
+.checkbox__input:checked + .checkbox__box{
+    background: green;
+    border-color: black;
+}
+.botao{
+    height: 10%;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.btn1{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #8db2f1;
+    border: 1px solid black;
+}
+
+.divface2{
+    text-align: end;
+    height: 5%;
+    background-color: black;
+}
+.rodape1{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+}
+.rodape2{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+
+
+
+/*
+header{
+
+    width: 100%;
+    height: 70px;
+
+    background-color: aqua;
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}*/
