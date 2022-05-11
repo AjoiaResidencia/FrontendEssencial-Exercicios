@@ -1,0 +1,56 @@
+*{
+  margin:auto;
+  border: auto;
+}
+body{
+  text-align: center;
+  
+}
+
+header{
+  width: 100vw;
+  height: 10vh;
+  background-color: #cf7588;
+  display: flex;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.menu{
+  width: 20vw;
+  height: 100vh;
+  background-color: #8379c3;
+  display: flex;
+}
+
+.conteudo{
+  width: 80vw;
+  height: 100vh;
+  background-color: #a286a3;
+  display: flex;
+}
+.conteudo p{
+  font-size: 8rem;
+}
+
+.lateral{
+  width: 20vw;
+  height: 100vh;
+  background-color: #5948c5;
+  display: flex;
+  text-align: center;
+
+}
+.lateral p {
+  font-size: 3rem;
+}
+
+footer{
+  width: 100vw;
+  height: 10vh;
+  background-color: #6c5d9a;
+  text-align: center;
+  font-size: 2rem;
+}

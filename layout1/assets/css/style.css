@@ -1,0 +1,42 @@
+*{
+  margin:auto;
+  border: auto;
+}
+body{
+  text-align: center;
+  
+}
+
+header{
+  width: 100vw;
+  height: 10vh;
+  background-color: aquamarine;
+  display: flex;
+
+}
+
+.menu{
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(144, 127, 255);
+  display: flex;
+}
+
+.conteudo{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(127, 72, 131);
+  display: flex;
+}
+
+p{
+  font-size: 10rem;
+}
+
+footer{
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(255, 127, 140);
+  text-align: center;
+  font-size: 2rem;
+}

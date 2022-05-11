@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="titulo">
+      <h1>Formulário de Cadastro</h1>
+    </div>
+    <form action="#" method="get">
+      <label for="input-nome">Nome</label>
+      <input type="text" id="input-nome" />
+      <label for="input-sobrenome">Sobrenome</label>
+      <input type="text" id="input-sobrenome" />
+      <label for="input-data">Data de nascimento</label>
+      <input type="date" name="data" id="input-date" required />
+      <label for="input-email">Email</label>
+      <input type="email" id="input-email" required />
+      <label for="input-tel">Telefone</label>
+      <input
+        type="tel"
+        id="input-tel"
+        id="input-tel"
+        placeholder="informe o telefone com DDD"
+      />
+      <label for="input-cpf">CPF</label>
+      <input type="text" id="input-cpf" placeholder="apenas números" />
+      <fieldset class="tecnologias">
+        <div id="check">
+          <label><strong>Tecnologia de preferência:</strong></label
+          ><br /><br />
+          <input
+            type="checkbox"
+            id="tecnologia1"
+            name="tecnologia1"
+            value="HTML"
+          />
+          <label for="tecnologia1"> HTML</label>
+          <input
+            type="checkbox"
+            id="tecnologia2"
+            name="tecnologia2"
+            value="CSS"
+          />
+          <label for="tecnologia2"> CSS</label>
+          <input
+            type="checkbox"
+            id="tecnologia3"
+            name="tecnologia3"
+            value="JavaScript"
+          />
+          <label for="tecnologia3"> JavaScript</label>
+        </div>
+      </fieldset>
+      <div class="campo">
+        <label for="areaAtuação"><strong>Area de Atuação</strong></label>
+        <select id="senioridade" required>
+          <option selected disabled value="">Front-end</option>
+          <option>Back-end</option>
+          <option>Fullstack</option>
+        </select>
+      </div>
+      <label for="input-nomeUsuario">Nome de usuário</label>
+      <input
+        type="text"
+        id="input-nomeUsuario"
+        placeholder="não é permitido espaço entre os caracteres"
+      />
+      <label for="password">Senha</label>
+      <input type="password" placeholder="digite sua senha aqui" />
+
+      <input type="submit" value="enviar" class="botao1" />
+      <input type="submit" value="cancelar" class="botao2" />
+    </form>
+  </body>
+</html>

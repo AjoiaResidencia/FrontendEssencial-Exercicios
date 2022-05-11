@@ -1,0 +1,21 @@
+h1{
+  background: #333;
+  color: #fefefe;
+  text-align: center;
+}
+
+h2{
+  background: #ebaa5b;
+  color: #333;
+  text-align: center;
+}
+
+.div1 img{
+  margin-top: 0.5rem;
+  height: 15%;
+  width: 15%;
+}
+
+.div2{
+  margin-left: 1.0rem;
+}

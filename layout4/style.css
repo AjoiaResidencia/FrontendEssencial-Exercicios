@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+.div-header{
+  width: 100vw;
+  height: 15vh;
+  background-color: #5fa071;
+}
+.div-header h1{
+  text-align: center;
+  
+}
+
+.conteudo{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  
+}
+
+.card-1{
+  width: 30vw;
+  height: 85vh;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  border-radius: 2%;
+  background-color: black;
+}
+
+.card-2{
+  width: 30vw;
+  height: 85vh;
+  border-radius: 2%;
+  margin-top: 4rem;
+  background-color: black;
+}
+
+.card-3{
+  width: 30vw;
+  height: 85vh;
+  border-radius: 2%;
+  margin-top: 4rem;
+  background-color: black;
+}
+p{
+  text-align: center;
+  color: aliceblue;
+  margin-top: 20rem;
+  font-size: 1.2rem;
+}
+.div-footer{
+  width: 100vw;
+  height: 15vh;
+  background-color: #5fa071;
+}
+
+.div-footer h1{
+  text-align: center;
+}

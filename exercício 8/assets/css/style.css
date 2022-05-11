@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 0.1rem solid;
+  margin: auto;
+  padding: 0.7rem;
+  width: 70%;
+  height: 25%;
+  
+}
+
+td{
+  height: 1rem;
+  width: 60%;
+}
+
+#logo{
+  
+  width: 40px
+  
+}
+#pcazul{
+  width: 15%;
+  height: 20%;
+}
+/* LINHAS */
+td.data{
+  text-align: right;
+}
+
+ td.pedido{
+   text-align: center;
+   background-color: #4886cd;
+}
+
+td.valor{
+  background-color: #4886cd;
+} 
+
+td.descricaoProd{
+  
+  background-color: #4886cd;
+}
+
+td.qtde{
+  background-color: #4886cd;
+}
+
+td.VT{
+  background-color: #4886cd;
+}
+td.valorTotal{
+  background: #565454;
+  color:#ffffff;
+  text-align: right;
+  
+}
+td.vt2{
+  background: #565454;
+  color:#ffffff;
+}
+
+td.nome{
+  text-align: left;
+}
+
+td.tel{
+  text-align: left;
+}
+
+td.cel{
+  text-align: left;
+}
+td.email{
+  text-align: left;
+}
+
+/* COLUNAS */
+
+tr.ipad{
+  text-align: left;
+}
+
+tr.notebookDell{
+  text-align: left;
+}
+
+tr.cartaoDeMemoria{
+  text-align: left;
+}
+
+tr.kit{
+  text-align: left;
+}
+
+tr.bala{
+  text-align: left;
+}
+
+.pcpic{
+  width: 14%;
+  height: 14%;
+}

@@ -1,0 +1,57 @@
+
+body{
+  text-align: center;
+  color: #000000;
+  background-color: #3e3c4b;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 50%;
+  margin: auto;
+  border: 1px solid #3333;
+  border-radius: 5px;
+  padding: 0.5em;
+  text-align: left;
+  background-color: #a8a6d6;
+}
+
+fieldset {
+  border: 1px dashed;
+  background-color: #ffffff;
+}
+
+.botoes
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.botao:hover {
+  background: #CCBBFF;
+  
+}
+.botao1{
+  font-size: 1em;
+  background: #59429d;
+  border: 0;
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  border-radius: 10%;
+}
+
+.botao2{
+
+  font-size: 1em;
+  background: #df2673;
+  border: 0;
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  border-radius: 10%;
+}
+

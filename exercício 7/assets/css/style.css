@@ -1,0 +1,19 @@
+.div1{
+  text-align: center;
+}
+
+.div1 img{
+  height: 20%;
+  width: 20%;
+  border:  groove #ff7f50 5px;
+}
+.div2{
+  
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+}
+
+footer{
+  margin-top: 10rem;
+  text-align: center;
+}
