@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  background-color: #333;
+  color: #ffffff;
+}
+h4 {
+  text-align: center;
+  background-color: #daa520;
+}
+
+img {
+  width: 12rem;
+  margin-top: 0.5rem;
+}
+
+dt, dd {
+  margin-bottom: 1rem;
+}
+
+dl dd li {
+  list-style-type: circle;
+}
+

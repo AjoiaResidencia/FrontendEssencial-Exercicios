@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+div.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+div.block {
+  width: 10rem;
+  height: 10rem;
+  background-color: #333;
+}
+
+div.corner {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 1rem;
+}
+
+div.center {
+  display: flex;
+  justify-content: center;
+}
