@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #333;
+
+    font-size: 1.6rem;
+}
+
+div{
+    background-color: white;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 15rem;
+}
+
+table, th, td{
+    border: 0.3rem solid rgb(0, 0, 0);
+    border-collapse: collapse;
+
+    padding: 1.5rem;
+}
+
+#serratec_logo {
+    width: 100%;
+    height: 100%;
+}
+
+#computador_icone {
+    height: 3rem;
+    width: 3rem;
+}
+
+.Titulos, .Titulos th {
+    background-color: rgb(81, 175, 230);
+    font-weight: bold;
+    text-transform: uppercase;
+}
