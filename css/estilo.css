@@ -1,0 +1,284 @@
+ 
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oleo+Script+Swash+Caps&family=Roboto+Flex:opsz,wght@8..144,500&family=Work+Sans:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Roboto+Flex:opsz,wght@8..144,500&family=Work+Sans:ital,wght@1,300&display=swap');
+  .logo {
+      width: 5em;
+      height: 5rem;
+      border-radius: 100px;
+  }
+  .row{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+  }
+  body {
+      font-size: 100%;
+      background: linear-gradient(20deg, rgb(238, 119, 188), rgb(179, 69, 88), rgb(201, 149, 157));
+  }
+  .cabecalho {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 24px;
+  }
+
+  .cabecalho-menu{
+    display: flex; 
+    gap: 32px; 
+  }
+
+  .cabecalho-menu-item {
+      font-family: 'Roboto Flex', sans-serif;
+      color: rgba(131, 24, 24, 0.692);
+      font-weight: 700;
+      font-size: 18px;
+  }
+
+  .conteudo {
+      margin-bottom: 30px;
+      border-top: 2px solid pink; 
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+
+  }
+
+  .conteudo-principal {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      max-width: 100%;  
+  }
+  .conteudo-principal h1 {
+    display:flex;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    color: burlywood;
+    font-weight: 900;
+    font-size: 40px;
+    
+  }
+
+  .conteudo-principal p {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    color: rgba(250, 178, 160, 0.808);
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .conteudo-principal h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    color: burlywood;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .icones-principal {
+      display: flex;
+      justify-content: right;
+  }
+
+  .imagens {
+      width: 120px;
+      height: 120px;
+      border-radius: 100px;
+      
+  }
+  .redes-sociais {
+      display: flex;
+      justify-content: right;
+  }
+
+  .cliqueAqui {
+      
+      width: 100px;
+      height: 50px;
+      border-radius: 100px;
+      background-color: #5e1316;
+      color: beige;
+      border-color: #5e1316;
+      border-bottom: #5e1316;
+      border-right: #5e1316;
+      border-bottom-style: groove;
+      font-family: 'Roboto Flex', sans-serif;
+      font-weight: 800;
+      
+  }
+  div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .card {
+      border-radius: 100px;
+      box-shadow: 10px 10px 15px 0px rgba(50, 50, 50, 0.22);
+      padding: 30px;
+      margin: 30px;
+      width: 350px;
+      height: 350px;
+      transition: all 0.3s ease-out;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background: linear-gradient(20deg, rgb(226, 190, 211), rgb(131, 40, 54), rgb(170, 47, 66));
+      
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+    
+    
+    .card p {
+      color: #1d0404;
+      font-size: 15px;
+      font-family: 'Oleo Script Swash Caps', cursive;
+      font-family: 'Roboto Flex', sans-serif;
+      font-family: 'Work Sans', sans-serif;;
+      font-weight: 600;
+    }
+
+    .card h3 {
+      font-family: 'Alfa Slab One', cursive;
+      font-family: 'Oleo Script Swash Caps', cursive;
+      font-family: 'Roboto Flex', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+      color: burlywood;
+      font-weight: 800;
+    }        
+    .image {
+      float: right;
+      max-width: 64px;
+      max-height: 64px;
+    }
+
+    .imagem-card {
+      position: absolute;
+    }
+
+    .texto-card {
+      position: absolute;
+    }
+    .newsletter {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 40px;
+      margin: auto;
+      margin-top: 20px;
+      width: 350px;
+      height: 350px;
+      justify-content: space-around;
+      box-shadow: 10px 10px 15px 0px rgba(50, 50, 50, 0.22);
+      border-radius: 100px;
+      background: linear-gradient(20deg, rgb(153, 27, 105), rgb(153, 93, 126), rgb(214, 171, 193));
+     }
+   
+    .desenvolvedor {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 40px;
+      margin: auto;
+      width: 350px;
+      height: 350px;
+      justify-content: space-around;
+      box-shadow: 10px 10px 15px 0px rgba(50, 50, 50, 0.22);
+      border-radius: 100px;
+      background: linear-gradient(20deg, rgb(214, 206, 211), rgb(163, 127, 147), rgb(219, 45, 132));
+
+    }
+
+    .desenvolvedor h2 {
+      font-family: 'Oleo Script Swash Caps', cursive;
+      font-family: 'Roboto Flex', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+      color: bisque;
+      font-weight: 700;
+    }
+
+    .desenvolvedor p {
+      font-family: 'Oleo Script Swash Caps', cursive;
+      font-family: 'Roboto Flex', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: #1d0404;
+    }
+    .rodape-desenvolvedor {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      max-width: 100%;
+      padding: 24px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 700;
+      color: rgb(139, 14, 73);
+    }
+
+    .newsletter p {
+      font-family: 'Oleo Script Swash Caps', cursive;
+      font-family: 'Roboto Flex', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+      color: #1d0404;
+      font-weight: 600;
+    }
+
+    .newsletter h2 {
+      font-family: 'Oleo Script Swash Caps', cursive;
+      font-family: 'Roboto Flex', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+      color: bisque;
+      font-weight: 800;
+    }
+
+    .newsletter h3{
+      font-family: 'Oleo Script Swash Caps', cursive;
+      font-family: 'Roboto Flex', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 600;
+      color: #1d0404;
+    }
+
+    .newsletter div {
+      font-family: 'Oleo Script Swash Caps', cursive;
+      font-family: 'Roboto Flex', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+      color: #1d0404;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .rodape-redes-sociais {
+      display: flex;
+      width: 30%;
+    }
+    @media (max-width: 575px) {
+
+    }
