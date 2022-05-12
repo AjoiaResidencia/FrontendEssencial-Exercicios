@@ -1,0 +1,21 @@
+table,th,td{
+    border: 2px solid #333;
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+   
+   
+}
+.logo{
+   
+    width: 40%;
+}
+.icone{
+    width: 40px;
+
+}
+.pedido{
+    
+    background-color: #131b7ea2;
+    width: 40%;
+}

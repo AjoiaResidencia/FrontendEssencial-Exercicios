@@ -1,0 +1,46 @@
+body{
+background-color: #bde2e2;
+}
+h1{
+    text-align: center;
+}
+.capa1{
+    text-align: center;
+}
+a{
+    font-family: verdana,sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: blue;
+    
+}
+
+a:visited{
+    color: #e21c1c;
+}
+a:hover{
+    color: #00ff2a;
+}
+.pg2{
+    text-align: center;
+    padding-top: 50px;
+    height: 4rem;
+
+}
+.capa2{
+    text-align: center;
+}
+.pg3{
+    text-align: center;
+    padding-top: 50px;
+    height: 4rem;
+
+}
+.capa3{
+    text-align: center;
+}
+.inicio{
+    text-align: center;
+    padding-top: 50px;
+    height: 4rem;
+}

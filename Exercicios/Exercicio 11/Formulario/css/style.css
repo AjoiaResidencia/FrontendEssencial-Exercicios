@@ -1,0 +1,32 @@
+
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+     gap: 0.5;
+     width: 50%;
+     
+     margin: auto;
+     border: 1px solid #333;
+     border-radius: 5px;
+     padding: 0.5em;
+     background-color: #69dfc1;
+ }
+ .borda{
+     text-align: center; 
+     border: 0.5px solid #333 ;
+     height: 30px;
+     background-color: #ffffff;
+ }
+
+  #enviar {
+    background-color: #4974ff;
+  }
+  
+  #cancelar {
+    background-color: #ff4a4a;
+  
+  }
+

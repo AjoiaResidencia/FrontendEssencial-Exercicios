@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2376131-moderno-galaxia-fundo-com-a-via-lactea-espiral-universo-e-conceito-estrelado-vetor.jpg);
+}
+.container1{
+    margin-top: 30px ;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+     
+}
+.box1{
+   
+    border: 5px solid #000000; 
+    width: 200px;
+    height: 220px;
+    background-color: #375e5e;
+}
+.box2{
+    border: 5px solid #000000; 
+    width: 203px;
+    height: 220px;
+    margin-left: 72.5%;
+    background-color: #375e5e;
+}
+.container2{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+
+}
+.box3{
+    border: 5px solid #000000; 
+    background-image: url(https://i.pinimg.com/222x/61/1a/17/611a1751987e45d004a953e3b6db659d.jpg);
+    width: 200px;
+    height: 220px;
+    background-color: aquamarine;
+    margin-left: 40%;
+}
+.container3{
+    width: 100%;
+    height: 220px;
+    display: flex;
+   
+}
+.box4{
+    
+    border: 5px solid #000000; 
+    width: 200px;
+    height: 220px;
+    background-color: #375e5e;
+}
+.box5{
+    border: 5px solid #000000; 
+    width: 203px;
+    height: 220px;
+    margin-left: 72.5%;
+    background-color: #375e5e;
+}

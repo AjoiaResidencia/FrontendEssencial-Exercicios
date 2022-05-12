@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+        <h1>Formulário de cadastro</h1>
+
+        <form action="#" method="get">
+            
+            <label for="input-name">Nome</label>
+            <input type="text" name="nome" id="primeiro nome" required>
+            
+            <label for="lname">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+            
+            <label for="input-date">Data Nascimento</label>
+            <input type="date" name="data nascimento" id="data nascimento" required>
+
+            <label for="tel">Telefone</label>
+            <input type="tel" name="numero" placeholder="99 99999-9999" id="numero" required>
+
+            <label for="text">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="text">CPF</label>
+            <input type="number" name="cpf" id="cpf" required>
+
+            <label for="text">Tecnologia de preferencia </label>
+           
+            <label class="borda"> 
+               <input type="radio" name="escolha" value="html">HTML
+               <input type="radio" name="escolha" value="css">CSS
+               <input type="radio" name="escolha" value="Javascript">Javascript
+            </label>
+            
+            <label for="text">Área de atuação</label>
+            
+            <select name="proficao" id="proficao">
+                <option value="front-end">Front-End</option>
+                <option value="Back-End">Back-End</option>
+                <option value="Cibersegurança">Cibersegurança</option>
+            </select>
+
+            <label for="text">Nome de usuário</label>
+            <input type="text" name="nome usuario" id="nome usuario" required>
+
+            <label for="number">Senha</label>
+            <input type="password" name="senha" id="senha" required>
+            
+            <div class="buttons">
+                <input type="submit" value="Enviar" id="enviar">
+                <input type="submit" value="Cancelar" id="cancelar">
+            </div>
+       
+         </form>
+   </body>
+</html>
