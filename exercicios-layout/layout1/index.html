@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout1</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .alinhar-centro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      header {
+        background-color: #00ff6a;
+        width: 100vw;
+        height: 50px;
+        text-align: center;
+      }
+      nav {
+        background-color: #006eff;
+        width: 100vw;
+        height: 25px;
+        text-align: center;
+      }
+
+      section {
+        background-color: #00e1ff;
+        width: 100vw;
+        height: 795px;
+        text-align: center;
+        font-size: 20px;
+      }
+
+      footer {
+        background-color: #9900ff;
+        width: 100vw;
+        height: 50px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="alinhar-centro"><h1>Topo</h1></header>
+    <nav class="alinhar-centro"><h4>Menu</h4></nav>
+    <section class="alinhar-centro"><h1>Conteudo</h1></section>
+    <footer class="alinhar-centro"><h1>Rodapé</h1></footer>
+  </body>
+</html>

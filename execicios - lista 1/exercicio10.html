@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 10</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header,
+      footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 700;
+      }
+
+      header {
+        height: 5vh;
+      }
+      footer {
+        height: 10vh;
+      }
+
+      .fundo-cinza {
+        background-color: rgb(176, 174, 174);
+      }
+
+      #container {
+        display: flex;
+        height: 85vh;
+      }
+      #esquerda,
+      #direita {
+        width: 50vw;
+        height: 100%;
+      }
+      #esquerda,
+      #direita {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 50px;
+      }
+
+      #esquerda {
+        padding-inline: 5%;
+      }
+
+      #direita {
+        padding-inline: 10%;
+      }
+
+      #esquerda #linha1 {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        height: 30vh;
+      }
+
+      #esquerda #linha2 {
+        display: flex;
+        justify-content: center;
+        height: 60vh;
+      }
+
+      #direita #linha1d,
+      #direita #linha2d {
+        display: flex;
+        gap: 75px;
+        height: 30vh;
+      }
+
+      #direita #linha3d {
+        display: flex;
+        height: 22vh;
+      }
+
+      #cubo1,
+      #cubo2,
+      #cubo3,
+      #cubo4,
+      #cubo5,
+      #cubo7,
+      #cubo8 {
+        width: 80%;
+        height: 100%;
+      }
+
+      #cubo6 {
+        width: 100%;
+      }
+
+      #cubo9 {
+        width: 100%;
+        height: 100%;
+      }
+
+      .linha div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="fundo-cinza">Cabeçalho</header>
+    <div id="container">
+      <div id="esquerda">
+        <div id="linha1" class="linha">
+          <div id="cubo1" class="fundo-cinza"><strong>#1</strong></div>
+          <div id="cubo2" class="fundo-cinza"><strong>#2</strong></div>
+          <div id="cubo3" class="fundo-cinza"><strong>#3</strong></div>
+        </div>
+        <div id="linha2" class="linha">
+          <div id="cubo6" class="fundo-cinza"><strong>#6</strong></div>
+        </div>
+      </div>
+      <div id="direita">
+        <div id="linha1d" class="linha">
+          <div id="cubo4" class="fundo-cinza"><strong>#4</strong></div>
+          <div id="cubo5" class="fundo-cinza"><strong>#5</strong></div>
+        </div>
+        <div id="linha2d" class="linha">
+          <div id="cubo7" class="fundo-cinza"><strong>#7</strong></div>
+          <div id="cubo8" class="fundo-cinza"><strong>#8</strong></div>
+        </div>
+        <div id="linha3d" class="linha">
+          <div id="cubo9" class="fundo-cinza"><strong>#9</strong></div>
+        </div>
+      </div>
+    </div>
+    <footer class="fundo-cinza">Rodapé</footer>
+  </body>
+</html>

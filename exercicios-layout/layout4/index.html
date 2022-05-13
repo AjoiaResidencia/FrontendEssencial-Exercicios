@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout1</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .alinhar-centro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      header {
+        background-color: #00ff6a;
+        width: 100vw;
+        height: 70px;
+        text-align: center;
+      }
+
+      #container {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+      }
+
+      .card {
+        color: white;
+        background-color: rgb(24, 24, 24);
+
+        width: 25%;
+        height: 720px;
+        margin-block: 30px;
+      }
+
+      footer {
+        background-color: #00ff6a;
+        width: 100vw;
+        height: 70px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="alinhar-centro"><h1>Topo</h1></header>
+    <div id="container">
+      <div class="card alinhar-centro"><h4>Card</h4></div>
+      <div class="card alinhar-centro"><h4>Card</h4></div>
+      <div class="card alinhar-centro"><h4>Card</h4></div>
+    </div>
+    <footer class="alinhar-centro"></footer>
+  </body>
+</html>
