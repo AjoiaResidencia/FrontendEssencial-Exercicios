@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    margin: auto;
+    /* height: 50vh; */
+
+    background-color: var(--bgmain2);
+    /* border: 2px solid yellow; */
+}
+
+.englobar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    width: 90%;
+    margin-bottom: 2rem;
+
+    /* border: 2px solid hsl(340, 97%, 38%);  */
+    border-radius: 1rem;
+    /* border-style: inset; */
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    /* margin: auto; */
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    /* width: 80%; */
+    /* height: 65vh; */
+
+    border: 2px solid hsl(340, 97%, 38%); 
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.formulario select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+
+}
+
+.formulario fieldset {
+
+    border: 3px solid #e2054f;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 0.6rem;
+}
+
+.alternativa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem;
+    margin-top: 0;
+    padding: 1rem;
+
+    /* border: 3px solid hwb(308 18% 30%); */
+
+    /*margin-left: 0; */
+}
+
+.formulario legend {
+    font-weight: bold;
+    /* text-shadow: 2px 2px black; */
+}
+
+.formulario label {
+    display: block;
+    cursor: pointer;
+    padding: 0.1rem;
+    /* text-align: left; */
+}
+
+
+.formulario textarea {
+    width: 100%;
+    max-width: 452px;
+    max-height: 250px;
+    border-radius: 0.5rem;
+    border-style: groove;
+
+}
+
+.formulario input {
+
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 2rem;
+    margin-bottom: 0.8rem;
+
+}
+
+/* 
+.formulario input.radio
+{
+    height: 1rem;
+    width: 1rem;
+} */
+
+.formulario input.radio,
+.formulario input.checkbox,
+.formulario input.submit {
+    width: auto;
+}
+
+.formulario input.radio p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.formulario .radio margin-right {
+    margin-right: 1rem;
+}
+
+.botao
+{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.divdadepressao
+{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    /* justify-content: center; */
+
+    padding: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.divdadepressao input
+{
+    display: flex;
+    
+
+
+}
+
+input.editbotao {
+    text-align: center;
+    color: #fff;
+    background-color: #3D3A34;
+    /* border: 0.2rem solid hsl(268, 96%, 27%); */
+    padding: 5px 20px;
+    height: 45px;
+    width: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    background: linear-gradient(to bottom, #000000, hsl(340, 97%, 38%));
+    margin-bottom: 1rem;
+}
+
+input.editbotao2 {
+    text-align: center;
+    color: #fff;
+    background-color: #3D3A34;
+    /* border: 0.2rem solid hsl(268, 96%, 27%); */
+    padding: 5px 20px;
+    height: 45px;
+    width: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    background: linear-gradient(to bottom, #000000, hsl(234, 91%, 43%));
+    margin-bottom: 1rem;
+}
+
+.teste-submit {
+    margin-top: 1rem;
+    background-color: var(--purple-500);
+    border: none;
+    border-radius: 3px;
+    padding: 0.4rem;
+    color: var(--white);
+
+    font-weight: 700;
+
+    transition: 0.2s;
+}

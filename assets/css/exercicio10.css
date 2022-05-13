@@ -33,7 +33,7 @@ body {
     height: 75vh;
 
     color: #fff;
-    border: 3px solid rgb(76, 126, 2);
+    /* border: 3px solid rgb(76, 126, 2); */
 }
 
 .esquerda {
@@ -45,7 +45,7 @@ body {
     width: 35%;
     height: 55vh;
 
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 
 }
 
@@ -105,7 +105,7 @@ body {
     width: 35%;
     height: 55vh;
 
-    border: 3px solid rgb(19, 236, 56);
+    /* border: 3px solid rgb(19, 236, 56); */
 }
 
 .direitacima
@@ -118,7 +118,7 @@ body {
     height: 25%;
     margin-bottom: 0.1rem;
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .bloco5, .bloco6
@@ -143,7 +143,7 @@ body {
     height: 25%;
     margin-bottom: 0.1rem;
 
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .bloco7, .bloco8
@@ -166,7 +166,7 @@ body {
     width: 100%;
     height: 25%;
 
-    border: 2px solid rgb(49, 27, 172);
+    /* border: 2px solid rgb(49, 27, 172); */
 }
 
 .bloco9
