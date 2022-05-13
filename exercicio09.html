@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+
+            background-color: aqua;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .linha1 {
+            display: flex;
+            justify-content: space-between;
+            /* align-items: center; */
+            /* margin: auto; */
+
+            width: 100%;
+            /* border: 5px solid yellow; */
+        }
+
+        .linha2 {
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            width: 100%;
+            /* border: 5px solid red; */
+        }
+
+        .bloco1 {
+            /* display: inline; */
+            width: 200px;
+            height: 200px;
+            background-color: black;
+        }
+
+        .bloco2 {
+            /* display: inline; */
+            width: 200px;
+            height: 200px;
+            background-color: rgb(172, 56, 56);
+        }
+
+        .bloco3 {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="linha1">
+
+            <div class="bloco1"></div>
+
+            <div class="bloco2"></div>
+
+        </div>
+
+        <div class="linha2">
+
+            <div class="bloco3"></div>
+
+        </div>
+
+        <div class="linha1">
+
+            <div class="bloco1"></div>
+
+            <div class="bloco2"></div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

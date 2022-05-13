@@ -1,0 +1,12 @@
+body{
+    /* margin: 0; */
+}
+
+.estrutura{
+    margin: auto;
+    width: 70%;
+    height: 100vh;
+    background-color: aquamarine;
+    /* display: flex;
+    flex-direction: column; */
+}

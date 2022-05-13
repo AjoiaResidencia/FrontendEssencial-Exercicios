@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+.estrutura{
+    margin: auto;
+    width: 70%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.estrutura h1{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 0.01rem;
+}
+
+.estrutura h2{
+    margin: 0; 
+    font-weight: bold;
+    /* border: 2px solid black;  */
+    padding-left: 10px;
+}
+
+.estrutura h3
+{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.pad{
+    padding-left: 3rem;
+    /* border: 3px solid yellow; */
+    margin-top: 0.1rem;
+}
+
+.aga6{
+    margin: 0;
+    padding-left: 1rem;
+    /* border: 2px solid black; */
+    font-size: 1.1rem;
+}
+
+.img1{
+    /* margin: 0; */
+     /* border: 3px solid rgb(201, 65, 65); */
+     width: 150px;
+     height: 100px;
+     margin-top: 0.9px;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* .cabecalho{
+    margin: auto;
+    border: 10px solid black;
+    height: 20%;
+     display: flex; 
+    
+     line-height: 10rem; 
+} */

@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: lightgoldenrodyellow;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 10vh;
+    border: 3px solid red;
+}
+
+.central {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+    width: 100%;
+    height: 75vh;
+
+    color: #fff;
+    border: 3px solid rgb(76, 126, 2);
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+
+    width: 35%;
+    height: 55vh;
+
+    border: 3px solid blue;
+
+}
+
+.blocoesquerdacima {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 40%;
+    margin-bottom: 0.1rem; 
+
+    /* border: 3px solid black; */
+
+}
+
+.bloco1,
+.bloco2,
+.bloco3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    /* border: 2px solid yellow; */
+
+}
+
+.blocoesquerdabaixo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+.bloco4 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+
+    width: 35%;
+    height: 55vh;
+
+    border: 3px solid rgb(19, 236, 56);
+}
+
+.direitacima
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 25%;
+    margin-bottom: 0.1rem;
+
+    border: 2px solid red;
+}
+
+.bloco5, .bloco6
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40%;
+    height: 100%;
+
+    background-color: black;
+}
+
+.direitameio
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 25%;
+    margin-bottom: 0.1rem;
+
+    border: 2px solid yellow;
+}
+
+.bloco7, .bloco8
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40%;
+    height: 100%;
+
+    background-color: black;
+}
+
+.direitabaixo
+{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 25%;
+
+    border: 2px solid rgb(49, 27, 172);
+}
+
+.bloco9
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 15vh;
+    border: 3px solid red;
+}
