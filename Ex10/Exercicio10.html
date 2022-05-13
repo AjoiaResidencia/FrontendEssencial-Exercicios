@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+  
+        header, footer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 20px;
+          font-weight: 700;
+        }
+  
+        header {
+          height: 5vh;
+        }
+        footer {
+          height: 10vh;
+        }
+  
+        .back {
+          background-color: rgb(133, 133, 133);
+        }
+  
+        #container {
+          display: flex;
+          height: 85vh;
+        }
+        #esquerda, #direita {
+          width: 50vw;
+          height: 100%;
+        }
+        #esquerda, #direita {
+          display: flex;
+          flex-direction: column;
+          gap: 50px;
+          padding: 50px;
+        }
+  
+        #esquerda {
+          padding-inline: 5%;
+        }
+  
+        #direita {
+          padding-inline: 10%;
+        }
+  
+        #esquerda #linha1 {
+          display: flex;
+          justify-content: center;
+          gap: 25px;
+          height: 30vh;
+        }
+  
+        #esquerda #linha2 {
+          display: flex;
+          justify-content: center;
+          height: 60vh;
+        }
+  
+        #direita #linha1d, #direita #linha2d {
+          display: flex;
+          gap: 75px;
+          height: 30vh;
+        }
+  
+        #direita #linha3d {
+          display: flex;
+          height: 22vh;
+        }
+  
+        #box1, #box2, #box3, #box4, #box5, #box7, #box8 {
+          width: 80%;
+          height: 100%;
+        }
+  
+        #box6 {
+          width: 100%;
+        }
+  
+        #box9 {
+          width: 100%;
+          height: 100%;
+        }
+  
+        .linha div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 20px;
+        }
+      </style>
+    </head>
+    <body>
+        <header class="back">
+            Cabeçalho
+        </header>
+      <div id="container">
+        <div id="esquerda">
+          <div id="linha1" class="linha">
+            <div id="box1" class="back"> #1 </div>
+            <div id="box2" class="back"> #2 </div>
+            <div id="box3" class="back"> #3 </div>
+          </div>
+          <div id="linha2" class="linha">
+            <div id="box6" class="back"> #6 </div>
+          </div>
+        </div>
+        <div id="direita">
+          <div id="linha1d" class="linha">
+            <div id="box4" class="back"> #4 </div>
+            <div id="box5" class="back"> #5 </div>
+          </div>
+          <div id="linha2d" class="linha">
+            <div id="box7" class="back"> #7 </div>
+            <div id="box8" class="back"> #8 </div>
+          </div>
+          <div id="linha3d" class="linha">
+            <div id="box9" class="back"> #9 </div>
+          </div>
+        </div>
+      </div>
+      <footer class="back">
+          Rodapé
+      </footer>
+    
+    </body>
+</html>

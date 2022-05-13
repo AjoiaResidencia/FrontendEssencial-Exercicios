@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 11</title>
+
+    <style>
+        body {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1 {
+          text-align: center;
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          border: 1px solid black;
+          border-radius: 4px;
+          padding: 10px;
+          margin: auto;
+          width: 800px;
+        }
+  
+        input {
+          height: 20px;
+          border-radius: 4px;
+          font-size: 16px;
+        }
+  
+        form div, select {
+          height: 30px;
+        }
+  
+        form #opcoes {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 2px;
+          border: 1px solid black;
+        }
+  
+        #div-buttons {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+  
+        .button {
+          padding: 5px;
+          color: white;
+          text-decoration: none;
+          font-size: 16px;
+        }
+  
+        #buttonEnviar {
+          background-color: rgb(0, 119, 255);
+          height: 100%;
+          border: none;
+          border-radius: 0;
+        }
+  
+        #buttonCancelar {
+          background-color: rgb(226, 64, 64);
+        }
+      </style>
+    </head>
+    <body>
+      <h1>Formulário de Cadastro</h1>
+  
+      <form method="get">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required />
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="sobrenome" required />
+        <label for="data-nascimento">Data Nascimento:</label>
+        <input type="date" name="data-nascimento" id="data-nascimento" required />
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required />
+        <label for="telefone">Telefone:</label>
+        <input type="text" name="telefone" id="telefone" required />
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf" required />
+        <label for="lang">Tecnologia de preferência:</label>
+        <div id="opcoes">
+          <input type="radio" name="lang" id="html" checked />
+          <label>HTML</label>
+          <input type="radio" name="lang" id="css" />
+          <label>CSS</label>
+          <input type="radio" name="lang" id="javascript" />
+          <label>JavaScript</label>
+        </div>
+        <label for="">Área de atuação:</label>
+        <select name="area-atuacao" id="area-atuacao">
+          <option value="front-end">Front-end</option>
+          <option value="back-end">Back-end</option>
+          <option value="full-stack">Full-stack</option>
+        </select>
+        <label for="nome-usuario">Nome de Usuário:</label>
+        <input type="text" name="nome-usuario" id="nome-usuario" required />
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" required />
+        <br />
+        <div id="div-buttons">
+          <div>
+            <input type="submit" value="Enviar" class="button" id="buttonEnviar"/>
+          </div>
+          <div><a id="buttonCancelar" class="button" href="#">Cancelar</a></div>
+        </div>
+      </form>
+    </body>
+</html>

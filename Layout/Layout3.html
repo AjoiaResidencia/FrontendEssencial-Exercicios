@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 03</title>
+
+    <style>
+        * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+        }
+  
+        .alinhar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        header {
+          background-color: #00ff6a;
+          width: 100vw;
+          height: 50px;
+          text-align: center;
+        }
+        #esquerda {
+          background-color: #006eff;
+          width: 10vw;
+          height: 500px;
+          text-align: center;
+        }
+  
+        section {
+          background-color: #00e1ff;
+          width: 90vw;
+          height: 500px;
+          text-align: center;
+          font-size: 20px;
+        }
+  
+        #direita {
+          background-color: #ff00f2;
+          width: 10vw;
+          height: 500px;
+          text-align: center;
+        }
+  
+        footer {
+          background-color: #9900ff;
+          width: 100vw;
+          height: 70px;
+          text-align: center;
+        }
+  
+        #container {
+          display: flex;
+          flex-direction: row;
+        }
+      </style>
+    </head>
+    <body>
+      <header class="alinhar"><h1>Topo</h1></header>
+      <div id="container">
+        <aside id="esquerda" class="alinhar"><h4>Menu</h4></aside>
+        <section class="alinhar"><h1>Conteudo</h1></section>
+        <div id="direita" class="alinhar"><h4>Lateral</h4></div>
+      </div>
+      <footer class="alinhar"><h1>Rodapé</h1></footer>
+    </body>
+  </html>

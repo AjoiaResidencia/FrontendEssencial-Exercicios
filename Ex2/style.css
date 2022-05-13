@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+.margin{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 5rem;
+}
+
+.divisao{
+    border: 2px solid rgb(0, 38, 255);
+    margin: 50px 500px 50px 500px;
+    /* margin: 5rem; 
+    margin-top
+    margin-bottom
+    margin-left*/
+}
+
+.margem{
+    border: 2px solid rgba(0, 38, 255, 0);
+    margin: 5px 400px 5px 400px;
+}

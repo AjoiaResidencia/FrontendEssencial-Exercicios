@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 02</title>
+
+    <style>
+        * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+        }
+  
+        .alinhar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        header {
+          background-color: #16ff77;
+          width: 100vw;
+          height: 50px;
+          text-align: center;
+        }
+        aside {
+          background-color: #005acf;
+          width: 10vw;
+          height: 400px;
+          text-align: center;
+        }
+  
+        section {
+          background-color: #00c5df;
+          width: 90vw;
+          height: 400px;
+          text-align: center;
+          font-size: 20px;
+        }
+  
+        footer {
+          background-color: #6300a5;
+          width: 100vw;
+          height: 70px;
+          text-align: center;
+        }
+  
+        #container {
+          display: flex;
+          flex-direction: row;
+        }
+      </style>
+    </head>
+    <body>
+      <header class="alinhar"><h1>Topo</h1></header>
+      <div id="container">
+        <aside class="alinhar"><h4>Menu</h4></aside>
+        <section class="alinhar"><h1>Conteudo</h1></section>
+      </div>
+      <footer class="alinhar"><h1>Rodapé</h1></footer>
+    </body>
+  </html>
