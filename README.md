@@ -16,10 +16,10 @@
 ![](./prints/Exercicio_7.2.PNG)
 ![](./prints/Exercicio_7.3.PNG)
 ## **Exercicio 8**
-![](./prints/)
+![](./prints/Exercicio_8.PNG)
 ## **Exercicio 9**
-![](./prints/)
+![](./prints/Exercicio_9.PNG)
 ## **Exercicio 10**
-![](./prints/)
+![](./prints/Exercicio_10.PNG)
 ## **xercicio 11**
 ![](./prints/)
