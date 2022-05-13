@@ -67,6 +67,10 @@ header {
 }
 
 .box_peq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 15rem;
     height: 19rem;
 
@@ -74,12 +78,20 @@ header {
 }
 
 .box_med {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 64rem;
     height: 10rem;
     border: 1px solid white;
 }
 
 .box_grande {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     width: 64rem;
 
     border: 1px solid white;
