@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+.topo{
+    background-color: #85ce17;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    background-color: #0e61ce;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo{
+    background-color: #0fe7e7;
+    width: 100%;
+    height: 436px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape{
+    background-color: #831be4;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

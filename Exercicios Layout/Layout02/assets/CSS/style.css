@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+.topo{
+    background-color: #85ce17;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+}
+.menu{
+    background-color: #0e61ce;
+    width: 10%;
+    height: 426px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo{
+    background-color: #0fe7e7;
+    width: 90%;
+    height: 426px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape{
+    background-color: #831be4;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

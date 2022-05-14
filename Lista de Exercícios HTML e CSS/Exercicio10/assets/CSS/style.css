@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+body {
+  text-align: center;
+}
+.topo {
+  background-color: #b9b9b9;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  height: 486px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.left {
+  width: 466px;
+  height: 466px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+}
+.right {
+  width: 300px;
+  height: 466px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 40px;
+}
+.retangulo {
+  background-color: #b9b9b9;
+  width: 120px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.retangulo2 {
+  background-color: #b9b9b9;
+  width: 400px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.retangulo3 {
+  background-color: #b9b9b9;
+  width: 290px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rodape {
+  background-color: #b9b9b9;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

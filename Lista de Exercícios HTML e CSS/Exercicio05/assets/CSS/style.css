@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+img{
+    width: 250px;            
+}
+p{
+    text-align: left;
+}
+#float-right{
+    float: right;
+}
+#float-left{
+    float: left;
+}
