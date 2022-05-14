@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    background-color: #0e0d0d;
+    color: white;
+}
+h3{
+    text-align: center;
+    background-color: rgb(247, 191, 70);
+}
+.titulo{
+    font-size: 18px;
+}
+img{
+    width: 250px;
+}

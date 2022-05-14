@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./ex11.css" />
+    <title>Meu Formulario</title>
+  </head>
+  <body>
+    <h1>Formulário de Cadastro</h1>
+    <div class="formulario">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" />
+      <label for="sobrenome">Sobrenome</label>
+      <input type="text" id="sobrenome" />
+      <label for="dataNascimento">Data de Nascimento</label>
+      <input type="date" id="dataNascimento" />
+      <label for="email">E-mail</label>
+      <input type="email" id="email" />
+      <label for="telefone">Telefone</label>
+      <input
+        type="tel"
+        id="telefone"
+        placeholder="24 98856-2565"
+        pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"
+        required
+      />
+      <label for="cpf">CPF</label>
+      <input
+        type="text"
+        id="cpf"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}--[0-9]{2}"
+        required
+      />
+      <label for="container">Tecnologia de preferência</label>
+      <div class="container">
+        <input type="radio" id="html" name="fav_language" value="HTML" />
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <label for="css">CSS</label>
+        <input
+          type="radio"
+          id="javascript"
+          name="fav_language"
+          value="JavaScript"
+        />
+        <label for="javascript">JavaScript</label>
+      </div>
+      <label for="Atuação">Área de atuação</label>
+      <select id="Atuação">
+        <option value="Front-end">Front-end</option>
+        <option value="Back-end">Programação Orientada a Objetos</option>
+        <option value="Full Stack">Banco de Dados</option>
+        <option value="Programação mobile.">Desenvolvimento Web.</option>
+      </select>
+      <label for="usuario">Nome de Usuário</label>
+      <input type="text" id="usuario" />
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" /><br />
+      <div class="button">
+        <input type="submit" value="Enviar" class="enviar"/>
+        <input type="reset" value="Cancelar" class="cancelar"/>
+      </div>
+    </div>
+  </body>
+</html>
