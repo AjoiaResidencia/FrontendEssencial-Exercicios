@@ -1,0 +1,16 @@
+.container-top {
+  text-align: center;
+}
+img {
+  width: 25%;
+}
+ul {
+  list-style-type: none;
+}
+ol {
+  padding-top: 15px;
+  list-style-type: disc;
+}
+p {
+  text-align: center;
+}

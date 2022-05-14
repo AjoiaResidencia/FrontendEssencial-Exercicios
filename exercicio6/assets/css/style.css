@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  background-color: #291e13;
+  color: #ffffff;
+}
+
+h3 {
+  text-align: center;
+  background-color: #ecb709;
+}
+
+h4 {
+  margin-left: 2rem;
+  margin-bottom: 0;
+}
+
+section {
+  padding-left: 3.5rem;
+}
+
+img {
+  width: 15%;
+  height: 8rem;
+  margin: 0.5rem auto;
+}
+span {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: circle;
+}
