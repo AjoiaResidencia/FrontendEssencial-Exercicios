@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 100%;
+  height: 50%;
+}
+
+p {
+  text-align: justify;
+}
+
+.right-side {
+  width: 20%;
+  height: 13rem;
+  float: right;
+  margin-left: 5px;
+}
+.left-side {
+  width: 13%;
+  float: left;
+  margin-right: 5px;
+}

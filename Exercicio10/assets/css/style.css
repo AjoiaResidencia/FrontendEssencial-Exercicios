@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.block {
+  background-color: #d2d2d2;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+}
+
+.center {
+  display: flex;
+  justify-content: space-around;
+  height: 60%;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left .left-top {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left .left-top .left-top-break {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left .left-bottom {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right .right-top {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right .right-top .right-top-break {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right .right-bottom {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
