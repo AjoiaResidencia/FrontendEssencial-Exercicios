@@ -1,0 +1,91 @@
+header {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    border: #333 solid 2px;
+    padding: 1rem;
+    gap: 0.3rem;
+    max-width: 1000px;
+}
+
+input {
+    border-radius: 0.2rem;
+    height: 1.5rem;
+}
+
+input[type=radio]{
+    
+}
+
+label .checkbox {
+    width: 10%;
+
+}
+
+.tecnologies {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    justify-content: center;
+    border: #333 solid 2px;
+}
+
+.tecnologies>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.occupation {
+    width: 100%;
+    height: 2rem;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+}
+
+.buttons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+
+button[type=submit]{
+    border: none;
+    background-color: #0e9af8;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+button[type=reset]{
+    border: none;
+    background-color: #f82206;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+button[type=submit]:hover{
+    cursor: pointer;
+    background-color: #4fb9ff;
+    
+}
+
+button[type=reset]:hover{
+    cursor: pointer;
+    background-color: #f86956;
+    
+}

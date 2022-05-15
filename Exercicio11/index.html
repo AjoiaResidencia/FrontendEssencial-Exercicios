@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Meu formulário</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de Cadastro</h1>
+    </header>
+
+    <form action="" id="myForm" method="post">
+
+        <label for="name">Nome</label>
+        <input id="name" type="text" required></input>
+
+        <label for="surname">Sobrenome</label>
+        <input type="text" id="surname" required>
+
+        <label for="birthDate">Data de Nascimento</label>
+        <input type="date" id="birthDate" required>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="example@example.com" required>
+
+        <label for="phone">Telefone</label>
+        <input type="text" id="phone" placeholder="Digite como no ex.: 24 98888-7777" required
+            pattern="[0-9]{2} [0-9]{5}-[0-9]{4}">
+
+        <label for="cpf">CPF</label>
+        <input type="text" id="cpf" required pattern="[0-9]{11}">
+
+        <label>Tecnologia de preferência</label>
+        <div class="tecnologies">
+            <div>
+                <input class="checkbox" type="radio" id="html" name="tecnologies" value="html" checked>
+                <label for="html" checked>HTML</label>
+                <input class="checkbox" type="radio" id="css" name="tecnologies" value="css">
+                <label for="css">CSS</label>
+                <input class="checkbox" type="radio" id="javascript" name="tecnologies" value="javascript">
+                <label for="javascript">JavaScript</label>
+            </div>
+
+        </div>
+
+        <label for="occupation">Área de Ocupação</label>
+        <div class="occupation">
+            <select id="occupation" required>
+                <option value="">Selecione uma opção</option>
+                <option value="bd">Banco de Dados </option>
+                <option value="backEnd">Back-end</option>
+                <option value="frontEnd">Front-end</option>
+                <option value="api">API</option>
+            </select>
+        </div>
+
+        <label for="username">Nome de Usuário</label>
+        <input type="text" id="username" required>
+
+        <label for="password">Senha</label>
+        <input type="text" id="password" required pattern="[0-9A-Za-Z./*-+_] {.10}">
+        
+        <div class="buttons">
+            <button type="submit" form="myForm">Enviar</button>
+            <button type="reset" form="myForm">Cancelar</button>
+        </div>
+
+
+    </form>
+</body>
+
+</html>
