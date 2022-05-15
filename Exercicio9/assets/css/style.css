@@ -1,0 +1,44 @@
+.containerPai{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 100%;
+}
+.container1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.container2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.center{
+    display: flex;
+    width: 100%;
+    height: 440px;
+    margin: auto;
+}
+.container3{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: aqua;
+}
+.containerPai2{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 100%;
+}
+.container4{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.container5{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
