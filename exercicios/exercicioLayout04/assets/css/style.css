@@ -1,0 +1,38 @@
+body {
+   margin: 0;
+   height: 100vh;
+   font-weight: 700;
+   font-size: 2rem;
+ }
+ 
+ header {
+   background-color: #808000;
+   height: 15%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .container {
+   display: flex;
+   height: 70%;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+ 
+card {
+   background-color: #333;
+   color: #ffffff;
+   font-size: 1rem;
+   height: 90%;
+   width: 25%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+}
+
+ footer {
+   height: 15%;
+   background-color: #808000;
+ }
