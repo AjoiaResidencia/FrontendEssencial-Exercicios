@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout-02</title>
+  </head>
+  <style>
+    body{
+        margin: 0 auto;
+    }
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .topo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        background-color: #02c102;
+    }
+
+    .menu-conteudo {
+        display: flex;
+        height: 70%
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2f2ff3;
+        height: 100%;
+        width: 15%;
+    }
+
+    .conteudo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 85%;
+        background-color: #00ffff;
+    }
+
+    .rodapé{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        background-color: #800080;
+    }
+  </style>
+
+  <body>
+        <div class="conteiner">
+            <header class="topo">
+                <h1>Topo</h1>
+            </header>
+            <div class = "menu-conteudo">
+                <div class="menu">
+                    <h3>Menu</h3>
+                </div>
+                <section class="conteudo">
+                    <h1>Conteúdo</h1>
+                </section>
+            </div>
+
+            <footer class="rodapé">
+                <h1>Rodapé</h1>
+            </footer>
+        </div>
+  </body>
+</html>

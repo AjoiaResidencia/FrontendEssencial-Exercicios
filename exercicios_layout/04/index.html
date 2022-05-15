@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout-01</title>
+  </head>
+  <style>
+    body{
+        margin: 0 auto;
+    }
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .topo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10%;
+        background-color: #02c102;
+    }
+
+    .cards-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80%;
+        padding: 2rem;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 28rem;
+        width: 20rem;
+        background-color: #333;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+    .rodape{
+        background-color: #02c102;
+        width: 100%;
+        height: 10%;
+    }
+  </style>
+
+  <body>
+        <div class="conteiner">
+            <header class="topo">
+                <h1>Topo</h1>
+            </header>
+            <div class="cards-container">
+                <div class="card">Card</div>
+                <div class="card">Card</div>
+                <div class="card">Card</div>
+            </div>
+            <footer class="rodape"></footer>
+        </div>
+  </body>
+</html>

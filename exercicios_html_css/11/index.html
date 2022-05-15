@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11</title>
+    <style>
+        body{
+            text-align: center;
+            margin: auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            width: 30rem;
+            margin: auto;
+            border: 1px solid #000;
+            padding: 0.5rem;
+            text-align: left;
+        }
+
+        .tec{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            gap: 0.3rem;
+            border: 1px solid #000;
+            padding: 0.5rem;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content:space-around
+        }
+
+        .send {
+            background-color: #0080ff;
+            color: #fff;
+            border: none;
+            border-radius:3px;
+            padding: 0.3rem 0.5rem;
+        }
+        
+        .cancel {
+            background-color: #ff4800;
+            color: #fff;
+            border: none;
+            border-radius:3px;
+            padding: 0.3rem 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form action="#" method="post">
+        <label for="input-name">Nome</label>
+        <input type="text" name="nome" id="input-name" required/>
+        <label for="input-lname">Sobrenome</label>
+        <input type="text" name="nome" id="input-lname" required/>
+        <label for="input-date">Data de Nascimento</label>
+        <input type="date" name="date" id="input-date" required/>
+        <label for="input-email">E-mail</label>
+        <input type="email" name="email" id="input-email" required/>
+        <label for="input-tel">Telefone</label>
+        <input type="number" name="telephone" id="input-tel" placeholder="24 98856-2565" required/>
+        <label for="input-cpf">CPF</label>
+        <input type="number" name="cpf" id="input-cpf" required/>
+        <label for="choose-tec">Tecnologia de preferência</label>
+        <div class="tec">
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </div>
+        <label for="area" id="area">Área de atuação</label>
+        <select name="area">
+            <option value="Default" selected></option>
+            <option value="Azul">Back-end</option>
+            <option value="Azul">Front-end</option>
+            <option value="Azul">Fullstack</option>
+        </select>
+        <label for="input-username">Nome de Usuário</label>
+        <input type="text" name="usernome" id="input-username" required/>
+        <label for="input=password">Senha</label>
+        <input type="password" name="password" id="input-password" required/>
+        <div class="buttons">
+            <input type="submit" class="send" value="Enviar"/>
+            <input type="reset" class="cancel" value="Cancelar"/>
+        </div>
+
+
+
+    </form>
+    
+</body>
+</html>

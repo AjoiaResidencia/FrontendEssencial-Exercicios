@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10</title>
+    <style>
+        body{
+            margin:0 auto;
+        }
+
+        p{
+            font-size:1.5rem;
+        }
+        
+        .header{
+            display: flex;
+            background-color: #cecdcd;
+            width: 100%; 
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            justify-content: space-around
+        }
+
+        .container-left{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            height: 100%;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top-left{
+            display: flex;
+            height: 33%;
+            width: 90%;
+            justify-content: space-evenly;
+        }
+
+        .bottom-left{
+            display: flex;
+            height: 66%;
+            width: 90%;
+            justify-content: space-evenly;
+        }
+        .big-square {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 18.5rem;
+            height:13.5rem;
+            background-color: #cecdcd;
+        }
+
+        .container-right{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            height: 100%;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top-right{
+            display: flex;
+            width: 90%;
+            justify-content: space-evenly;
+            height: 33%;
+        }
+        .middle-right{
+            display: flex;
+            width: 90%;
+            justify-content: space-evenly;
+            height: 33%;
+        }
+
+        .bottom-right{
+            display: flex;
+            width: 90%;
+            justify-content: space-evenly;
+            height: 33%;
+        }
+
+        .mid-square {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 14rem;
+            height: 6rem;
+            background-color: #cecdcd;
+        }
+        
+        .square{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 5rem;
+            height: 6rem;
+            background-color: #cecdcd;
+        }
+
+        .footer{
+            display: flex;
+            background-color: #cecdcd;
+            width: 100%; 
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"><p>Cabeçalho</p></div>
+    <div class="container">
+        <div class="container-left">
+            <div class="top-left">
+                <div class="square">#1</div>
+                <div class="square">#2</div>
+                <div class="square">#3</div>
+            </div>
+            <div class="bottom-left">
+                <div class="big-square">#6</div>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="top-right">
+                <div class="square">#4</div>
+                <div class="square">#5</div>
+            </div>
+            <div class="middle-right">
+                <div class="square">#7</div>
+                <div class="square">#8</div>
+            </div>
+
+            <div class="bottom-right">
+                <div class="mid-square">#9</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer"><p>Rodapé</p></div>
+    
+</body>
+</html>
