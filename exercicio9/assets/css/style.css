@@ -1,0 +1,15 @@
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.caixa{
+    width: 150px;
+    height: 150px;
+    background-color: #333;
+}
