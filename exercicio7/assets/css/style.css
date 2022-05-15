@@ -1,0 +1,17 @@
+.container-titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    width: 25%;
+}
+ul{
+    list-style-type: none;
+}
+ol{
+    padding-top: 15px;
+    list-style-type: disc;
+}
+p{
+    text-align: center;
+}
