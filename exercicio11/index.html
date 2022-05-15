@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form>
+      <label class="nome-campo">Nome</label>
+      <input name="nome" type="text" required />
+
+      <label class="nome-campo">Sobrenome</label>
+      <input name="sobrenome" type="text" required />
+
+      <label class="nome-campo">Data Nascimento</label>
+      <input name="data-nascimento" type="date" required />
+
+      <label class="nome-campo">E-mail</label>
+      <input name="e-mail" type="email" required />
+
+      <label class="nome-campo">Telefone</label>
+      <input name="telefone" type="tel" placeholder="024 993015567" required />
+
+      <label class="nome-campo">CPF</label>
+      <input name="cpf" type="number" required />
+
+      <label class="nome-campo">Tecnologia de preferência</label>
+      <div class="container-radio">
+        <input name="tecnologia" id="html" value="HTML" type="radio" required />
+        <label for="html">HTML</label>
+        <input name="tecnologia" id="css" value="CSS" type="radio" required />
+        <label for="css">CSS</label>
+        <input
+          name="tecnologia"
+          id="javascript"
+          value="Javascript"
+          type="radio"
+          required
+        />
+        <label for="javascript">Javascript</label>
+      </div>
+
+      <label class="nome-campo">Área de atuação</label>
+      <select required>
+        <option value="default">Selecione uma opção</option>
+        <option value="front-end">Front-end</option>
+        <option value="back-end">Back-end</option>
+        <option value="full-stack">Full Stack</option>
+      </select>
+
+      <label class="nome-campo">Nome de Usuário</label>
+      <input name="nome-usuario" type="text" required />
+
+      <label class="nome-campo">Senha</label>
+      <input name="senha" type="password" required />
+
+      <div class="container-botoes">
+        <button class="btn-enviar" type="submit" name="btn-enviar">Enviar</button>
+        <button class="btn-cancelar" type="button" name="btn-cancelar">Cancelar</button>
+      </div>
+    </form>
+</body>
+</html>

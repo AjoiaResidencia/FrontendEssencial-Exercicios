@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  form {
+    max-width: 600px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid #333;
+    padding: 15px;
+  }
+  .nome-campo {
+    margin: 5px 0 2px;
+  }
+  input,
+  select,
+  .container-radio {
+    border: 1px solid #3d3c3c;
+    padding: 5px;
+  }
+  select,
+  .container-radio input,
+  .container-radio label {
+    cursor: pointer;
+  }
+  .container-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .container-radio label {
+    margin: 0 10px 0 5px;
+  }
+  .container-botoes{
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .container-botoes button{
+      padding: 8px 5px;
+      color: #ffffff;
+      border-radius: 2px;
+  }
+  .container-botoes .btn-enviar{
+      background-color: #1674e7;
+  }
+  .container-botoes .btn-cancelar{
+      background-color: #ee0f0fc0;
+  }
+  
