@@ -1,0 +1,29 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    text-align: center;
+}
+.titulo{
+    color: black;
+}
+.container-foto{
+    margin-top: 2rem;
+}
+.foto1{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 2rem; 
+}
+.foto2{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+.foto3{
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 5rem;
+}
