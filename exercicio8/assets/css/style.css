@@ -1,0 +1,37 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+   }
+.minicomputador{
+    width: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    width: 30%;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.coluna{
+    background-color: #5575b1;
+}
+.data{
+    text-align: right;
+}
+.vazia{
+    padding: 12px;
+}
+.esquerda{
+    text-align: left;
+}
+.direita{
+    text-align: right;
+    color: rgb(253, 253, 253);
+    background-color: rgb(30, 30, 30);
+}
+.Total{
+    text-align: left;
+    color: aliceblue;
+    background-color: rgb(30, 30, 30);
+}
