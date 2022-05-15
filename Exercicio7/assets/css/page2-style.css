@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.imagem img{
+    width: 25%;
+}
+.imagem{
+    text-align: center;
+}
+.informacao{
+    margin-left: 25px;
+}
+.navegacao{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}

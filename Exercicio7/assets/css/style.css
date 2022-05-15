@@ -1,0 +1,16 @@
+.titulo{
+    font-weight: bold;
+    text-align: center;
+}
+.bolo{
+    text-align: center;
+}
+.bolo img{
+    width: 25%;
+}
+.lista{
+    margin-left: 25px;
+}
+h4{
+    text-align: center;
+}

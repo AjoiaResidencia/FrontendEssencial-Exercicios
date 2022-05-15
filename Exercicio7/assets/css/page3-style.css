@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+.imagem img{
+    width: 20%;
+    height: 200px;
+    
+}
+.imagem{
+    text-align: center;
+}
+.lista{
+    margin-left: 20px;
+}
+.fim{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
