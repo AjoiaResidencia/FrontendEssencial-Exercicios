@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.centraliza {
+  display: flex;
+  justify-content: center;
+}
+.topo,
+.rodape {
+  padding: 15px;
+}
+.topo {
+  background-color: rgb(109, 227, 109);
+}
+.container {
+  display: flex;
+}
+.menu {
+  padding: 5px;
+  background-color: rgba(68, 102, 195, 0.987);
+  width: 100%;
+  max-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conteudo {
+  background-color: aqua;
+  height: 79.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.rodape {
+  background-color: rgb(193, 46, 209);
+}
