@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: aqua;
+}
+.menu{
+    text-align: center;
+
+    background-color: blue;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 100%;
+    height: 500px;
+}
+.conteudo h1{
+    text-align: center;
+    margin: auto;
+}
+footer{
+    text-align: center;
+    background-color: aquamarine;
+    height: 100px;
+}
