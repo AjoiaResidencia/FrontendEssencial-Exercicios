@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.primeira{
+    display: flex;
+    height: 150px;
+}
+.um{
+    background-color: black;
+    height: 100%;
+    width: 15%;
+}
+.fantasma{
+    height: 100%;
+    width: 70%;
+}
+.dois{
+    background-color: black;
+    height: 100%;
+    width: 15%;
+}
+.segunda{
+    height: 150px;
+}
+.tres{
+    background-color: black;
+    height: 100%;
+    width: 15%;
+    margin: auto;
+}
+.terceira{
+    display: flex;
+    height: 150px;
+}
+.quatro{
+    background-color: black;
+    height: 100%;
+    width: 15%;
+}
+.cinco{
+    background-color: black;
+    height: 100%;
+    width: 15%;
+}
