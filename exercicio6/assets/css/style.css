@@ -1,0 +1,39 @@
+.titulo{
+    text-align: center;
+}
+h1{
+    background-color: #1f1f1f;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+h3{
+    background-color: #f1d064;
+}
+img{
+    padding-top: 20px;
+    width: 20%;
+}
+.cafe{
+    list-style-type: disc;
+}
+.lista{
+    list-style-type: none;
+}
+.informacoes{
+    padding-top: 1%;
+    list-style-type: circle;
+}
+.segunda-lista{
+    list-style-type: none;
+}
+.ingredientes{
+    padding-top: 1%;
+    list-style-type: circle;
+}
+.terceira-lista{
+    list-style-type: none;
+}
+.preparo{
+    padding-top: 1%;
+    list-style-type: decimal;
+}
