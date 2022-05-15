@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    font-family: verdana, sans-serif;
+
+    
+}
+body{
+    background-image: url(https://pbs.twimg.com/media/ChE0W5JUcAEFIig.jpg:large);
+    font-weight: bold;
+    
+}
+.centro{
+
+ width: 19.5%;
+  height: 11.2rem;
+  margin: auto;
+  
+  
+}
+.esquerda{
+  width: 180px; 
+ 
+  
+}
+.p1{
+   
+    background-color: rgb(255, 255, 255);
+     opacity: 0.5;
+     display: flex;
+     color:#000000 
+}
+.direita{
+   
+    width: 12%;  
+
+}
+.p2{
+    
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    display: flex;  
+    color:#000000 
+}
+.testando{
+    width: 180px; 
+    height: 11.2rem;
+    
+    
+    background-color: blue;
+}
+.mexendo{
+   float: left;
+    
+    background-color: blueviolet;
+}
+
