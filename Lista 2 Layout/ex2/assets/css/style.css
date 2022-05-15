@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .centralizar {
+    display: flex;
+    justify-content: center;
+  }
+  .topo,
+  .rodape {
+    padding: 15px;
+  }
+  .topo {
+    background-color: #3ef03e;
+  }
+  .container {
+    display: flex;
+  }
+  .menu {
+    padding: 5px;
+    background-color: #285deefc;
+    width: 100%;
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .conteudo {
+    background-color: #20dddd;
+    height: 79.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .rodape {
+    background-color: #6715b3;
+  }
+  

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .centralizar {
+    display: flex;
+    justify-content: center;
+  }
+  .topo,
+  .rodape {
+    padding: 15px;
+  }
+  .topo {
+    background-color: #3deb3d;
+  }
+  .container {
+    display: flex;
+  }
+  .menu,
+  .lateral {
+    padding: 5px;
+    background-color: #2256e6fc;
+    width: 100%;
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .conteudo {
+    background-color: #33dada;
+    height: 79.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .lateral {
+    background-color: #d928e9;
+  }
+  .rodape  {
+    background-color: #6a1fb1;
+  }
+  

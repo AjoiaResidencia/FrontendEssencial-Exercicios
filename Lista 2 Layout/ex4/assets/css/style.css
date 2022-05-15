@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .centraliza {
+    display: flex;
+    justify-content: center;
+  }
+  .verde {
+    padding: 15px;
+    min-height: 50px;
+    background-color: #18ee18;
+  }
+  .container {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #494848;
+    border-radius: 5px;
+    width: 25%;
+    max-width: 280px;
+    min-height: 400px;
+    color: #fff;
+  }

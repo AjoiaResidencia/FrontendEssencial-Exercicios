@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .centralizar {
+    display: flex;
+    justify-content: center;
+  }
+  .topo,
+  .rodape {
+      padding:15px;
+  }
+  .topo {
+    background-color: #4ff54f;
+  }
+  .menu{
+      padding:5px;
+      background-color: #2f65f8fc;
+  }
+  .conteudo{
+      background-color: #0efafa;
+      height: 75.6vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .rodape {
+    background-color: #8f1dfa;
+  }
