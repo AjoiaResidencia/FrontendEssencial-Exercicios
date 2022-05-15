@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x=icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Exercicio 11</title>
+</head>
+<body>
+        <div class="container">
+            <h1>Formulário de cadastro</h1>
+            <form action="#" method="POST" id="formCadastro">
+                <div class="nome">
+                    <label for="input-name">Nome</label>
+                    <input type="text" name="nome" id="input-name" required />
+                </div>
+                <div class="sobrenome">
+                    <label for="input-lastname">Sobrenome</label>
+                    <input type="text" name="Sobrenome" id="input-lastname" required />
+                </div>
+                <div class="data">
+                    <label for="input-date">Data de nascimento</label>
+                    <input type="date" name="date" id="input-date" required />
+                </div>
+                <div class="telefone">
+                    <label for="input-telephone">Telefone</label>
+                    <input type="tel" name="telefone" id="input-telephone" />
+                </div>
+                <div class="cpf">
+                    <label for="input-cpf">CPF</label>
+                    <input type="text" name="cpf" id="input-cpf" required />
+                </div>
+                <label for="input-tecnologia">Tecnologia de preferencia</label>
+                <div class="tecnologia">
+                    <input type="radio" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1"> HTML</label><br>
+                    <input type="radio" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2"> CSS</label><br>
+                    <input type="radio" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia3"> JavaScript</label><br>
+
+                </div>
+                <div class="area">
+                    <label for="Area">Area de atuação</label>
+                    <select id="Area" name="Area">
+                        <option value="Front-End">Front-End</option>
+                        <option value="Back-End">Back-End</option>
+                    </select>
+                </div>
+                <div class="usuario">
+                    <label for="input-nusuario">Nome de usuario</label>
+                    <input type="text" name="nusuario" id="input-nusuario" required />
+                </div>
+                <div class="senha">
+                    <label for="input-password">Senha</label>
+                    <input type="password" name="senha" id="input-password" required />
+                </div>
+                <div class="botao">
+                <input class="enviar" type="submit" value="Enviar">
+                <input class="cancelar" type="submit" value="Cancelar">
+                </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    color: #000000;
+
+}
+input, select{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #a7a78e;
+    gap: 0.5rem;
+    margin: 5px 5px;
+  }
+form{
+    border: 2px solid black;
+    padding-top: 10px;
+    width: 100%;
+}
+.container{
+    padding: 20px;
+    text-align: left;
+    color: #000000;
+    
+}
+
+.tecnologia{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 5px 5px;
+    padding-bottom: 5px;
+    color: #a7a78e;
+    
+}
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.enviar{
+    background-color:#56b856;
+    width: 100px;
+ 
+}
+.cancelar{
+    background-color: #ac2e2e;
+    width: 100px;
+}

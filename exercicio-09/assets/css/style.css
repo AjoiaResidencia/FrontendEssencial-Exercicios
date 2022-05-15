@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+div{
+    display: flex;
+    justify-content: space-between;
+}
+.quadrado{
+    height: 10rem;
+    width: 10rem;
+    background-color: #747070;
+    margin: 2.5rem 0;
+}
+
+.quadrado-centro{
+    display: flex;
+    justify-content: center;
+}

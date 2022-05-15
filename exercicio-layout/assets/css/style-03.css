@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background-color: #12e912;
+}
+.meio {
+    display: flex;
+    height: 70%
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1717cc;
+    height: 100%;
+    width: 10%;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    background-color: #19d8d8;
+}
+.lateral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #db42b5;
+    height: 100%;
+    width: 10%;
+}
+.rodapé{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: #a009a0;
+}

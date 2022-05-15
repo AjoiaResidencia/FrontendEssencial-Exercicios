@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    background-color: #12e912;
+}
+.meio {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    padding: 6px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #474749;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    color: #f0f8ff;
+}
+.rodapé{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color:  #12e912;
+}
