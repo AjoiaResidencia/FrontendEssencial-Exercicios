@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(243, 239, 239);
+}
+p {
+  color: rgb(230, 8, 93);
+  text-align: center
+}
+p#este {
+  color: rgb(230, 75, 127);
+}
+
+.outra {
+  color: rgb(139, 46, 77);
+  margin: 0 auto;
+  width: 500px;
+}
+hr {
+  text-align: center;
+  margin: 15px auto 30px auto;
+  width: 500px;
+  border: 3px solid rgb(25, 25, 26);
+}

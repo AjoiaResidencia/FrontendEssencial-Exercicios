@@ -1,0 +1,15 @@
+hr {
+    text-align: center;
+    margin: 15px auto 30px auto;
+    width: 500px;
+    border: 3px solid rgb(25, 25, 26);
+  }
+  p {
+    color: rgb(16, 15, 16);
+    text-align: left;
+  }
+  .outro {
+    color: black;
+    margin: 0 20px;
+    width: 500px;
+  }

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .centraliza {
+    display: flex;
+    justify-content: center;
+  }
+  .topo,
+  .rodape {
+      padding:15px;
+  }
+  .topo {
+    background-color: rgb(109, 227, 109);
+  }
+  .menu{
+      padding:5px;
+      background-color: rgba(68, 102, 195, 0.987);
+  }
+  .conteudo{
+      background-color: aqua;
+      height: 75.6vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .rodape {
+    background-color: blueviolet;
+  }
+  
