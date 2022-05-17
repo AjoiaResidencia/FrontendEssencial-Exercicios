@@ -1,0 +1,40 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+#p1{
+    height: 104; 
+    height: 142;
+    border-radius: 50%;
+    padding: 5px;
+}
+#p2{
+    height: 104; 
+    width: 104;
+    border-radius: 50%;
+    padding: 5px;
+}
+#p3{
+    height: 104; 
+    height: 142;
+    border-radius: 50%;
+    padding: 5px;
+}
+#p4{
+    height: 104; 
+    height: 142;
+    border-radius: 50%;
+    padding: 5px;
+}
+#p5{
+    height: 104; 
+    height: 142;
+    border-radius: 50%;
+    padding: 5px;
+}
+#p6{
+    height: 104; 
+    height: 142;
+    border-radius: 50%;
+    padding: 5px;
+}
